@@ -1,0 +1,48 @@
+{
+  "name": "jambagecom/base-html",
+  "type": "typo3-cms-extension",
+  "description": "Standards compliant HTML filter written in PHP",
+  "keywords": [
+    "TYPO3",
+    "extension",
+    "svg",
+    "phpOffice"
+  ],
+  "support": {
+    "issues": "https://github.com/franzholz/base_html/issues"
+  },
+  "homepage": "https://jambage.com",
+  "authors": [
+    {
+        "name": "Edward Z. Yang",
+        "email": "admin@htmlpurifier.org",
+        "homepage": "http://ezyang.com"
+    },
+    {
+      "name": "Franz Holzinger",
+      "role": "Developer",
+      "homepage": "https://ttproducts.de"
+    }
+  ],
+  "license": [
+    "GPL-2.0-or-later"
+  ],
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "typo3/cms-core": "^9.5 || ^10.4 || ^11.5"
+  },
+  "repositories": [
+    {
+        "type": "path",
+        "url": "Vendor/htmlpurifier"
+    }
+  ],
+  "replace": {
+    "typo3-ter/base-html": "self.version"
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "base_html"
+    }
+  }
+}

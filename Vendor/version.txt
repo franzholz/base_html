@@ -1,7 +1,1 @@
-htmlpurifier-4.14.0
-
-
-
-
-
-
+htmlpurifier-4.15.0

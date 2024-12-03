@@ -8,7 +8,7 @@ $EM_CONF[$_EXTKEY] = [
     'title' => 'HTML Filter',
     'description' => 'Standards compliant HTML filter written in PHP (htmlpurifier)',
     'category' => 'misc',
-    'version' => '4.15.0',
+    'version' => '4.15.1',
     'state' => 'stable',
     'clearcacheonload' => 1,
     'author' => 'Edward Z. Yang, Franz Holzinger',
@@ -16,7 +16,7 @@ $EM_CONF[$_EXTKEY] = [
     'author_company' => 'jambage.com',
     'constraints' => [
         'depends' => [
-            'typo3' => '10.4.0-12.4.99'
+            'typo3' => '11.5.0-13.4.99'
         ],
         'conflicts' => [
         ],
